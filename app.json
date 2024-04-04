@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Habts Us",
+    "slug": "habtsus",
+    "version": "1.0.0",
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "icon":"./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#B0A7F7"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization"
+    ],
+    "orientation": "portrait",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "dbd43c58-ce80-45ff-a1f2-6d6c3b6bb569"
+      }
+    },
+    "android": {
+      "package": "com.nelsonfai.habtsus",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#B0A7F7"
+      }
+    },
+    "owner": "nelsonfai",
+    "ios": {
+      "bundleIdentifier": "com.nelsonfai.habtsus"
+    }
+  },
+  "android": {
+    "package": "com.nelsonfai.habtsus",
+    "googleServicesFile": "./google-services.json"
+  }
+}
+

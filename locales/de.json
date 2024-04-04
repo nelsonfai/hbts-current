@@ -1,0 +1,372 @@
+{
+  "common": {
+    "error": "Fehler"
+  },
+  "auth": {
+    "loginWithEmail": "Mit E-Mail anmelden",
+    "signUpWithEmail": "Mit E-Mail registrieren",
+    "emailLabel": "Email",
+    "emailPlaceholder": "E-Mail-Adresse",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Passwort",
+    "emailRequired": "E-Mail ist erforderlich.",
+    "validEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "passwordRequired": "Passwort ist erforderlich.",
+    "signin": "Anmelden",
+    "signup": "Registrieren",
+    "haveAccount": "Haben Sie bereits ein Konto? ",
+    "noAccount": "Haben Sie kein Konto? ",
+    "incorrectCredentials": "Falsche E-Mail oder Passwort",
+    "signupError": "Beim Registrieren ist ein Fehler aufgetreten",
+    "userExist": "Ein Benutzer mit dieser E-Mail-Adresse existiert bereits.",
+    "passwordLength": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+    "forgotPassword": "Passwort vergessen?",
+    "agreeToTerms": "Durch die Fortsetzung stimmen Sie unseren",
+    "termsOfService": "Nutzungsbedingungen",
+    "privacyPolicy": "Datenschutzerklärung"
+
+  },
+ 
+    "forgotPassword": {
+      "EmailSendSuccess": "Eine E-Mail wurde mit Anweisungen zum Zurücksetzen Ihres Passworts gesendet.",
+      "EmailSendFail": "Fehler beim Senden der E-Mail. Bitte versuchen Sie es erneut.",
+      "sendEmailButton": "E-Mail zum Zurücksetzen senden",
+      "instructions": "Sie erhalten eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts."
+      
+    },
+  
+  "onboarding": {
+    "sharedListTitle": "Geteilte Liste",
+    "sharedListText": "Vereinfachen Sie Ihre Aufgaben und bleiben Sie über gemeinsame Listen synchronisiert, um nahtlose Zusammenarbeit zu ermöglichen",
+    "habitTrackerTitle": "Gewohnheiten-Tracker",
+    "habitTrackerText": "Fördern Sie gemeinsame Gewohnheiten und Ziele und stärken Sie die Verantwortlichkeit und das Wohlbefinden in Ihrer Beziehung",
+    "sharedNotesTitle": "Geteilte Notizen",
+    "sharedNotesText": "Verbessern Sie die Kommunikation und schaffen Sie einen gemeinsamen digitalen Raum für Notizen, um die Intimität und Verbindung zwischen Ihnen und Ihrem Partner zu fördern."
+  },
+  "home": {
+    "title": "Zuhause",
+    "greetings": "Wie geht es Ihnen heute?",
+    "hello": "Hallo",
+    "welcome": "Willkommen in meiner App",
+    "shareListTitle": "Geteilte Liste",
+    "premiumText": "Schalten Sie Premium-Funktionen frei und optimieren Sie Ihr Erlebnis!",
+    "premiumButton": "Jetzt Premium testen",
+    "habitSummary": {
+        "habitDone": "Erledigt!",
+        "invitePartner": "+ Partner einladen",
+        "partner": "Partner",
+        "todayActivity": "Heutige Gewohnheitszusammenfassung"
+    },
+    "listSummary": {
+        "listDone": "Liste erledigt",
+        "due": "Listen überfällig",
+        "listCount": "Anzahl der Listen",
+        "todayActivity":"Zusammenfassung der heutigen Liste."
+    }
+}
+,
+  "listDetails": {
+    "completed": "Abgeschlossen",
+    "dueBy":"Fällig am",
+    "forms": {
+      "confirmDelete": "Löschen bestätigen",
+      "deleteText": "Möchten Sie diese Liste wirklich löschen?",
+      "cancelButton": "Abbrechen",
+      "deleteButton": "Löschen",
+      "updateButton": "Aktualisieren",
+      "noDeletePermission": "Sie haben keine Berechtigung zum Löschen dieser Liste!",
+      "editPlaceholder": "Listenelement bearbeiten",
+      "addPlaceholder": "Listenelement hinzufügen"
+    }
+  }
+,  
+"habits": {
+  "title": "Gewohnheiten",
+  "today":"Heute",
+  "habitNotFound": "Gewohnheit nicht gefunden",
+  "noHabit":"Keine Gewohnheit gefunden!",
+  "addHabit":"Beginnen Sie, indem Sie eine neue Gewohnheit hinzufügen",
+  "dateFuture": "Das ausgewählte Datum liegt in der Zukunft. Die Gewohnheit kann nicht als erledigt markiert werden.",
+  "habitInfo":"Upgrade, um unbegrenzte Gewohnheiten zu erhalten",
+  "deleteHabit": {
+      "confirmDelete": "Löschen bestätigen",
+      "deleteText": "Sind Sie sicher, dass Sie diese Gewohnheit löschen möchten?",
+      "cancelButton": "Abbrechen",
+      "deleteButton": "Löschen"
+  }
+},
+
+    "editHabit": {
+      "updateTitle": "Gewohnheit aktualisieren",
+      "addTitle": "Gewohnheit erstellen",
+      "startDate": "Startdatum",
+      "endDate": "Enddatum",
+      "reminder": "Erinnerung einstellen (optional)",
+      "frequency": "Frequenz auswählen",
+      "sharepartner": "Mit Partner teilen?",
+      "namePlaceholder": "Gewohnheitsname",
+      "descriptionPlaceholder": "Beschreibung (optional)",
+      "sharepartnerText": "Mit Partner verbinden, um dies zu teilen",
+      "selectDays": "Wochentage auswählen:",
+      "selectDaysOfMonth":"Wählen Sie Tage des Monats" ,
+
+      "habitIconModal": {
+        "selectIconOrEmoji": "Wählen Sie ein Symbol oder Emoji aus",
+        "showEmojis": "Emojis anzeigen",
+        "showIcons": "Symbole anzeigen",
+        "close": "Schließen"
+      },
+      "selectName": {
+        "errorNone": "Bitte geben Sie einen Gewohnheitsnamen ein",
+        "errorLimit": "Der Gewohnheitsname sollte 60 Zeichen nicht überschreiten."
+      },
+      "selectColor": {
+        "title": "Farbe auswählen",
+        "error": "Bitte wählen Sie eine Farbe aus"
+      },
+      "selectIcon": {
+        "title": "Symbol auswählen",
+        "error": "Bitte wählen Sie ein Symbol aus"
+      },
+      "description": {
+        "error": "Die Beschreibung sollte 100 Zeichen nicht überschreiten."
+      }
+    
+  },
+  "settings": {
+    "logout": "Ausloggen",
+    "title": "Einstellungen",
+    "selectLanguage": "Sprache auswählen",
+    "close": "Schließen",
+    "appDescription": "Bleiben Sie organisiert und verbunden mit Ihrem Partner.\nVerbessern Sie die Verantwortlichkeit und Produktivität in Ihrer Beziehung mit Funktionen wie gemeinsamer Gewohnheitsverfolgung, gemeinsamen To-Do-Listen und Notizen.",
+    "storeText": "Laden Sie Habts Us ⬇️ herunter",
+    "accounts": {
+      "sectionTitle": "Konten",
+      "changeEmail": "E-Mail ändern",
+      "changePassword": "Passwort ändern",
+      "editProfile": "Profil bearbeiten",
+      "language": "Sprache",
+      "subscription":"Abonnement"
+    },
+    "subscription": {
+      "sectionTitle": "Abonnement",
+      "currentPlan": "Aktueller Plan:",
+      "premium": "Premium",
+      "freePlan": "Kostenloser Plan",
+      "subscriptionType": "Abonnementtyp",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "validTill": "Gültig bis",
+      "autoRenews": "Automatisch verlängern",
+      "reactivateSubscription": "Abonnement reaktivieren",
+      "manageSubscription": "Abonnement verwalten",
+      "manageSubscriptionsInfo": "Um Benutzerabonnements zu verwalten, gehen Sie zu Einstellungen > [Ihr_Name] > Abonnement > Habts Us",
+      "manageAndroidSubscriptionsInfo": "Um Android-Abonnements zu verwalten, öffnen Sie Google Play > Profil > Zahlungen und Abonnements.",
+      "partnerManagement": "Die Verwaltung des Abonnements erfolgt durch Ihren Partner"
+
+    ,"review": "Bewertung und Support",
+    "contact": "Kontaktiere uns",
+    "share": "Teilen",
+    "about": "Über uns",
+    "others": "Andere"
+    }
+    
+    ,
+    "notifications": {
+      "sectionTitle": "Benachrichtigungen",
+      "enableNotifications": "Benachrichtigungen aktivieren"
+    },
+    "legal": {
+      "sectionTitle": "Rechtliches",
+      "termsAndConditions": "Nutzungsbedingungen",
+      "privacy": "Datenschutzrichtlinie"
+
+    }
+    
+  },
+    "sharedListModal": {
+      "noList":"Kein Listenpunkt gefunden!",
+      "addList":"Beginnen Sie, indem Sie einen neuen Listenpunkt hinzufügen",
+      "listName": "Listenname",
+      "description": "Beschreibung (optional)",
+      "shareList": "Liste mit Partner teilen",
+      "clear": "Datum löschen",
+      "datePlaceholder": "JJ-MM-TT (optional)",
+      "createJoinTeam": "Erstellen oder beitreten Sie einem Team, um mit Partnern zu teilen",
+      "createList": "Liste erstellen",
+      "updateList": "Liste aktualisieren",
+      "cancel": "Abbrechen",
+      "listNameRequired": "Listenname ist erforderlich",
+      "listNameLength": "Listenname darf 60 Zeichen nicht überschreiten.",
+      "colorRequired": "Farbauswahl ist erforderlich",
+      "addListError": "Fehler beim Hinzufügen/Teilen der Liste. Bitte versuchen Sie es erneut.",
+      "validationError": {
+        "titleRequired": "Listenname ist erforderlich",
+        "titleLength": "Listenname darf 60 Zeichen nicht überschreiten.",
+        "colorRequired": "Farbauswahl ist erforderlich"
+      }
+
+    },
+    "habitstats": {
+      "invitePartner": "Partner einladen",
+      "monthly": "Monatlich",
+      "thisyear": "Jährlich",
+      "totalDaysCompleted": "Gesamte abgeschlossene Tage",
+      "donePercentage": "Prozentsatz erledigt",
+      "currentStreak": "Aktuelle Serie"
+  },
+  "partnerPairing": {
+    "title": "Partner Pairing",
+    "description": "Die Partnerpaarung ermöglicht einen nahtlosen Datenaustausch. Verbinde dich mit deinem Partner, um Habit-Daten und gemeinsame Listen mühelos zu teilen und zu verfolgen. Verbessere deine Reise, bleibe synchronisiert und erreiche eure Ziele gemeinsam!",
+    "inviteMessage": "Hallo! 😊 Ich habe diese erstaunliche Produktivitäts- und Verantwortlichkeits-App entdeckt, die darauf abzielt, das Wachstum in der Beziehung zu fördern und Partnern zu helfen, gemeinsam organisiert und verantwortlich zu bleiben.\n",
+    "pairingInstructions": "Um loszulegen, laden Sie die App herunter und verwenden Sie den unten stehenden Code, um sich zu verbinden: ",
+    "shareCodeText": "Code teilen",
+    "shareInviteCode": {
+      "sectionTitle": "Teile meinen Einladungscode",
+      "myCode": "Mein Code:",
+      "copyButtonText": "Kopieren",
+      "copied":"kopiert"
+    },
+    "unpairTeam": {
+      "buttonText": "Entkoppeln",
+      "alert": {
+        "confirmTitle": "Bestätige das Entkoppeln",
+        "confirmMessage": "Bist du sicher, dass du dein Team entkoppeln möchtest?",
+        "cancelText": "Abbrechen",
+        "unpairText": "Entkoppeln",
+        "successTitle": "Erfolg",
+        "errorTitle": "Fehler",
+        "errorMessage": "Team-Entkopplung fehlgeschlagen. Bitte versuche es erneut."
+      }
+    },
+    "enterPartnerCode": {
+      "sectionTitle": "Partnercode eingeben",
+      "placeholder": "Partnercode",
+      "error": "Du benötigst einen Einladungscode",
+      "success": "Du wurdest dem Team hinzugefügt",
+      "pairButtonText": "Paaren"
+    },
+    "404error": {
+      "alreadyInTeam": "Du bist bereits in einem Team.",
+      "cannotCreateWithYourself": "Du kannst kein Team mit dir selbst erstellen.",
+      "invitedUserAlreadyInTeam": "Der eingeladene Benutzer ist bereits in einem Team.",
+      "teamPairingFailed": "Team-Paarung fehlgeschlagen.",
+      "requireInvite":"Bitte gib einen Einladungscode ein"
+
+    }
+},
+  "subscription": {
+    "title": "Abonnementpakete",
+    "monthlyPackage": {
+      "text": "Monatlich",
+      "details": "9,99 $/Monat"
+    },
+    "yearlyPackage": {
+      "text": "Jährlich",
+      "details": "99,99 $/Jahr",
+      "bestValue": "Bester Wert"
+    },
+    "features": [
+      {
+        "title": "Unbegrenzte Gewohnheiten",
+        "description": "Zugriff auf eine unbegrenzte Anzahl von Gewohnheiten zur umfassenden Verfolgung.",
+        "icon": "check-circle"
+      },
+      {
+        "title": "Unbegrenzte Notizen",
+        "description": "Nehmen Sie unbegrenzt Notizen auf, um Ihre Gedanken und Ideen als Paar festzuhalten.",
+        "icon": "sticky-note"
+      },
+      {
+        "title": "Erweiterte Analytik-Daten",
+        "description": "Erhalten Sie detaillierte Einblicke und Analysen, um Ihren Fortschritt zu verfolgen und zu optimieren.",
+        "icon": "pie-chart"
+      },
+      {
+        "title": "Benutzerdefinierte Designs",
+        "description": "Personalisieren Sie Ihre App mit einer Vielzahl von benutzerdefinierten Designs und Farboptionen.",
+        "icon": "paint-brush"
+      },
+      {
+        "title": "Erinnerungen",
+        "description": "Halten Sie sich gegenseitig verantwortlich! Erhalten Sie Benachrichtigungen, wenn Ihr Partner Aufgaben abschließt.",
+        "icon": "bell"
+      },
+      {
+        "title": "Priorisierter Support",
+        "description": "Erhalten Sie Prioritätssupport und Hilfe bei allen Problemen oder Anfragen.",
+        "icon": "headphones"
+      }
+    ]
+,    
+    "subscribeButton": "Premium abonnieren",
+    "partnerText": "Ihr Partner erhält Premium kostenlos"
+  },
+  "changeEmail": {
+    "newEmail": "Neue E-Mail",
+    "emailRequired": "E-Mail ist erforderlich.",
+    "enterEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "emailDifferent": "Die neue E-Mail sollte sich von der aktuellen E-Mail unterscheiden.",
+    "emailSuccess": "E-Mail-Änderung erfolgreich",
+    "errorOccured": "Beim Ändern Ihrer E-Mail ist ein Fehler aufgetreten.",
+    "emailnotvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "button": "E-Mail ändern",
+    "label": "Neue E-Mail"
+  },
+  "changePassword": {
+    "passwordSuccess": "Passwortänderung erfolgreich",
+    "errorOccured": "Ein Fehler ist beim Ändern Ihres Passworts aufgetreten.",
+    "button": "Passwort ändern",
+    "newLabel": "Neues Passwort",
+    "currentLabel": "Aktuelles Passwort",
+    "fieldRequired": "Feld erforderlich"
+  },
+  "editProfile": {
+    "title": "Profil bearbeiten",
+    "fieldRequired": "Feld erforderlich",
+    "errorOccured": "Beim Speichern Ihres Profils ist ein Fehler aufgetreten.",
+    "label": "Benutzername",
+    "saveProfileButton": "Profil aktualisieren",
+    "updatedProfileButton": "Profil aktualisiert"
+  },
+  "notes":{
+    "notes":"Notizen",
+    "noNote":"Keine Notiz gefunden!",
+    "addNote":"Beginnen Sie, indem Sie eine neue Notiz hinzufügen",
+    "notesInfo": "Upgrade, um unbegrenzte Notizen zu erhalten",
+    "write":{
+      "header": {
+        "save": "Speichern"
+      },
+      "placeholder": "Titel eingeben ...",
+      "networkError": "Sie sind derzeit offline",
+      "richTextPlaceholder": "Hier Text eingeben..."
+    }
+    
+  }
+  ,
+  "walkthrough":{
+      "labels": {
+        "skip": "Überspringen",
+        "previous": "Zurück",
+        "next": "Weiter",
+        "finish": "Abschließen"
+      },
+      "texts": {
+        "welcome": "🎉 Willkommen zu Ihrer täglichen Zusammenfassung! Hier erhalten Sie einen schnellen Überblick über Ihre täglichen Gewohnheiten und Listen. 📊",
+        "createList": "📝 Bereit, eine neue Liste zu erstellen? Tippen Sie einfach auf die Schaltfläche \"Neue Liste hinzufügen\" unten!",
+        "exploreLists": "📜 Erkunden Sie alle Ihre Listen an einem Ort! Hier finden Sie eine umfassende Übersicht über alle Ihre Listen.",
+        "customizeList": "✏️ Passen Sie Ihren Listenname, Ihre Farbe und Ihr Fälligkeitsdatum ganz einfach per Fingertipp an!",
+        "revealEditMenu": "👈 Wischen Sie nach links, um das Listenbearbeitungsmenü anzuzeigen! <<< Verpassen Sie nicht die Schaltfläche \"Bearbeiten\".",
+        "startJourney": "🌟 Starten Sie Ihre Reise, indem Sie eine neue Gewohnheit hinzufügen!",
+        "revealMenu": "Wischen Sie nach links 👈, um das Menü anzuzeigen... Verpassen Sie es nicht! Klicken Sie auf ✅, um eine Gewohnheit als erledigt zu markieren, und auf \"❌\", um rückgängig zu machen!",
+        "checkCompletionStatus": "Überprüfen Sie den Aufgabenabschlussstatus für Sie und Ihren Partner. Zum Beispiel, wenn es \"1/1\" zeigt, bedeutet das, dass Sie die Aufgabe abgeschlossen haben ✅. Wenn es \"2/2\" zeigt, haben sowohl Sie als auch Ihr Partner die Aufgabe abgeschlossen 🎉.",
+        "currentStreak": "Sehen Sie sich Ihre aktuelle Serie an und halten Sie das Feuer am Brennen! 🔥",
+        "customizePrivacySettings": "Wischen Sie nach links 👈, um das Bearbeitungsmenü anzuzeigen und Datenschutzeinstellungen und mehr anzupassen! 🚀",
+        "indicator": "Indikator: 🔒 für private oder 🔗 für gemeinsame Notizen"
+      
+    }    
+  }
+  
+  }
+  
