@@ -24,8 +24,10 @@ const updateTourStatus = async (fieldToUpdate, value) => {
             console.log(`Tour status ${fieldToUpdate} - value of ${value} updated successfully`);
         } else {
             const errorData = await response.json();
+            console.log('errorDatra',errorData)
         }
     } catch (error) {
+
         console.log("Error updating tour status:", error.message);
     }
 };

@@ -8,6 +8,8 @@ import {
   FlatList,
   Alert,
   RefreshControl,
+  ActivityIndicator, // Import ActivityIndicator component
+
 } from "react-native";
 import AsyncStorageService from "../../services/asyncStorage";
 import { API_BASE_URL } from "../../appConstants";
@@ -339,8 +341,14 @@ const NotesScreen = () => {
       />
       {network ? (
         <View style={{ marginTop: 10, padding: 5 }}>
+      {loading &&
+        <View style={{    
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',}}>
+          <ActivityIndicator size="medium" color='grey' />
+        </View>}
         {notes.length === 0 && !loading  ? (
-
             <EmptyNotesPage title={i18n.t('notes.noNote')} image={'list'} subtext ={i18n.t('notes.addNote')}/>       
         ) : (
           <FlatList

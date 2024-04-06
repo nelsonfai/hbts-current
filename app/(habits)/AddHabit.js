@@ -125,7 +125,7 @@ const renderDayOfMonthPicker = () => {
   if (frequency === 'monthly') {
     return (
       <View>
-        <Text style={styles.label}>{i18n.t('editHabit.selectDayOfMonth')}</Text>
+        <Text style={styles.label}>{i18n.t('editHabit.selectDaysOfMonth')}</Text>
         {/* Render checkboxes for each day of the month */}
         <View style={styles.daysOfMonthContainer}>
           {[...Array(31).keys()].map((day) => (
@@ -516,7 +516,7 @@ const renderDayOfMonthPicker = () => {
             <Text style={styles.label}>{i18n.t('editHabit.reminder')} :</Text>
             <Switch value={setReminder} trackColor={{ false: 'grey', true: 'black' }}onValueChange={(value) => setSetReminder(value)} />
           </View>
-          { !user.notify && <Text style={{ fontSize: 14, color: 'grey', marginBottom: 20 }}> Turn on Notification to get Habit Reminder</Text>}
+          { !user.notify && <Text style={{ fontSize: 14, color: 'grey', marginBottom: 20 }}>{i18n.t('editHabit.turnNotification')}</Text>}
 
           {setReminder && (
             <View>

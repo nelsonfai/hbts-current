@@ -108,7 +108,8 @@
       "descriptionPlaceholder": "Description (optionnelle)",
       "sharepartnerText": "Associez-vous avec votre partenaire pour partager cela",
       "selectDays": "Sélectionnez les Jours de la Semaine :",
-      "selectDaysOfMonth": "Sélectionnez les Jours du Mois",
+      "selectDaysOfMonth": "Sélectionnez les Jours du Mois :",
+      "turnNotification": "Activez les notifications pour recevoir des rappels d'habitudes",
       "habitIconModal": {
         "selectIconOrEmoji": "Sélectionnez une Icône ou un Emoji",
         "showEmojis": "Afficher les Emojis",

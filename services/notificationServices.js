@@ -10,7 +10,7 @@ Notifications.setNotificationHandler({
     shouldSetBadge: false,
   }),
 });
-
+ 
 export function useNotificationService() {
   const [expoPushToken, setExpoPushToken] = useState(null);
 

@@ -108,6 +108,7 @@
     "sharepartnerText":"Pair with partner to share this",
     "selectDays":"Select Days of the Week:",
     "selectDaysOfMonth":"Select Days of the Month",
+    "turnNotification":"Turn on Notification to get Habit Reminder",
     "habitIconModal": {
       "selectIconOrEmoji": "Select an Icon or Emoji",
       "showEmojis": "Show Emojis",

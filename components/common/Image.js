@@ -9,11 +9,11 @@ const ProfileImage = ({ mainImageUri, width = 200, height = 200, handlePress, na
   };
 
   return (
-    <TouchableOpacity onPress={handlePress}>
+    <TouchableOpacity onPress={handlePress} >
       {mainImageUri ? (
         <Image
           source={{ uri: mainImageUri }}
-          style={{ ...styles.image, width, height, borderRadius }}
+          style={{ ...styles.image, width, height, borderRadius,backgroundColor:'whitesmoke' }}
         />
       ) : (
         <View style={[styles.defaultImageContainer, { width, height, borderRadius, backgroundColor: color ? color : '#ccc' }]}>

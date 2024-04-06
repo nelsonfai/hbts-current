@@ -44,7 +44,7 @@
     "sharedNotesText": "Verbessern Sie die Kommunikation und schaffen Sie einen gemeinsamen digitalen Raum für Notizen, um die Intimität und Verbindung zwischen Ihnen und Ihrem Partner zu fördern."
   },
   "home": {
-    "title": "Zuhause",
+    "title": "Startseite",
     "greetings": "Wie geht es Ihnen heute?",
     "hello": "Hallo",
     "welcome": "Willkommen in meiner App",
@@ -109,7 +109,7 @@
       "sharepartnerText": "Mit Partner verbinden, um dies zu teilen",
       "selectDays": "Wochentage auswählen:",
       "selectDaysOfMonth":"Wählen Sie Tage des Monats" ,
-
+      "turnNotification": "Schalten Sie die Benachrichtigung ein, um Erinnerungen an Gewohnheiten zu erhalten",
       "habitIconModal": {
         "selectIconOrEmoji": "Wählen Sie ein Symbol oder Emoji aus",
         "showEmojis": "Emojis anzeigen",
