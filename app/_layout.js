@@ -9,6 +9,8 @@ import { SwipeableProvider } from "../context/swipeableContext";
 import {
   TourGuideProvider,
 } from 'rn-tourguide';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
 import CustomTooltip from '../components/common/CustomTooltip'
 
 const Layout = () => {
@@ -24,6 +26,7 @@ const Layout = () => {
 
   return (
     <GlassfyProvider>
+      <GestureHandlerRootView style={{ flex: 1 }}>
     <UserProvider>
         <I18nProvider>
           <RefreshProvider>
@@ -46,6 +49,7 @@ const Layout = () => {
           </RefreshProvider>
         </I18nProvider>
         </UserProvider>
+        </GestureHandlerRootView>
       </GlassfyProvider>
   );
 };

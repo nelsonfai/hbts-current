@@ -1,5 +1,5 @@
 import React, { useState, useEffect,useContext } from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity, Alert,KeyboardAvoidingView } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity, Alert,KeyboardAvoidingView ,Platform} from 'react-native';
 import { Input, Button } from 'react-native-elements';
 import * as ImagePicker from 'expo-image-picker';
 import AsyncStorageService from '../../services/asyncStorage';

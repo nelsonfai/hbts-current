@@ -1,5 +1,5 @@
 import React, { useState,useContext} from 'react';
-import { Modal, View, Text, TouchableOpacity, StyleSheet, ScrollView,ImageBackground } from 'react-native';
+import { Modal, View, Text, TouchableOpacity, StyleSheet, ScrollView,ImageBackground ,Platform} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { images } from '../../constants';
 import I18nContext from '../../context/i18nProvider';

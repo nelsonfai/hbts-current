@@ -1,5 +1,5 @@
 import React, { useEffect ,useContext} from 'react';
-import { View, Text,AppState, StyleSheet, Alert, Image, TouchableOpacity ,SafeAreaView,Switch,Modal,FlatList,ScrollView,Linking, Share} from 'react-native';
+import { View, Text,AppState, StyleSheet, Alert, Image, TouchableOpacity ,SafeAreaView,Switch,Modal,FlatList,ScrollView,Linking, Share,Platform} from 'react-native';
 import { useUser } from '../../context/userContext';
 import AsyncStorageService from '../../services/asyncStorage';
 import { useRouter, Stack} from 'expo-router';

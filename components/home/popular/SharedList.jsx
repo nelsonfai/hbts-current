@@ -73,7 +73,6 @@ const SharedLists = ({}) => {
     router.push({
       pathname: `/sharedlist/id`,
       params: {
-        id: item.id,
         color: item.color,
         name: item.title,
         user: user.id,
